@@ -87,6 +87,13 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Ethan Miles Made this',
+    date: 'today',
+    firstParagraph: "so you're probably wondering how I made this",
+    secondParagraph: "chances are I won't tell you",
+    thirdParagraph: "a wise man told me to never do anything for free. So if you want me to tell you how I created this, message me in slack, I will send you my venmo, send me $500, and then I will walk you through how to make this."
   }
 ];
 
@@ -135,7 +142,7 @@ data.forEach(article => {
   document.querySelector('div.articles').appendChild(articleList);
 })
 
-console.log(data.length)
+
 // const articleElements = data.map(articleObj => {
 //   return articleMaker(articleObj);
 // })
